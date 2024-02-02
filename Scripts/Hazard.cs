@@ -33,8 +33,6 @@ public class Hazard : MonoBehaviour
                 var distance = Vector3.Distance(transform.position, player.transform.position);
                 var force = 1f / distance;
                 Debug.Log(force);
-
-                //cinemachineImpulseSource.GenerateImpulse(force);
             }
             else
             {
