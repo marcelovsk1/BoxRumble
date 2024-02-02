@@ -20,8 +20,6 @@ public class Player : MonoBehaviour
       Application.targetFrameRate = 140;
     }
 
-
-    // Start is called before the first frame update
     void Start()
     {
       rb = GetComponent<Rigidbody>();
