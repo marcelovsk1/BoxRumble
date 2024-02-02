@@ -7,7 +7,6 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {
     public GameObject hazardPrefab;
-    // Start is called before the first frame update
     public int maxHazardsToSpawn = 3;
     public TMPro.TextMeshProUGUI scoreText;
     public Image backgroundMenu;
