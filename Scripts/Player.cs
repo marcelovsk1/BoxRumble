@@ -26,7 +26,6 @@ public class Player : MonoBehaviour
       cinemachineImpulseSource = GetComponent<CinemachineImpulseSource>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         var horizontalInput = Input.GetAxis("Horizontal");
