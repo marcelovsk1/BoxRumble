@@ -23,7 +23,8 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        StartCoroutine(SpawnHazs
+        instance = this;
+        StartCoroutine(SpawnHazards());
     }
 
     private void Update()
