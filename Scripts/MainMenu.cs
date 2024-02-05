@@ -14,7 +14,8 @@ public class MainMenu : MonoBehaviour
   }
   public void Play()
   {
-    Get
+    GetComponent<CanvasGroup>().LeanAlpha(0, 0.4f)
+      .setOncComplete(OnComplete);
   }
 
 }
