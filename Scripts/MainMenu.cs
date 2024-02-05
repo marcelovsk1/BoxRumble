@@ -9,7 +9,7 @@ public class MainMenu : MonoBehaviour
   private void Start()
   {
     GetComponentInChildren<TMPro.TextMeshProUGUI().gameObject
-      .Lean
+      .LeanScale(new Vector3(1.2f, 1.2f), 0.5f)
   }
 
 }
