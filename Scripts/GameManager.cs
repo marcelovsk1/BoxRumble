@@ -8,6 +8,10 @@ public class GameManager : MonoBehaviour
 {
     public GameObject hazardPrefab;
     public int maxHazardsToSpawn = 3;
+    public void Enable()
+    {
+      gameObject.SetActive(true);
+    }
     public TMPro.TextMeshProUGUI scoreText;
     public Image backgroundMenu;
 
