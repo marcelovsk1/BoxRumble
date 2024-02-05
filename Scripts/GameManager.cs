@@ -18,10 +18,12 @@ public class GameManager : MonoBehaviour
     private int score;
     private float timer;
     private static bool gameOver;
+    private static GameManager instance;
+    private static GameManager Instance => instance;
 
     void Start()
     {
-        StartCoroutine(SpawnHazards());
+        StartCoroutine(SpawnHazs
     }
 
     private void Update()
