@@ -10,6 +10,11 @@ public class MainMenu : MonoBehaviour
   {
     GetComponentInChildren<TMPro.TextMeshProUGUI().gameObject
       .LeanScale(new Vector3(1.2f, 1.2f), 0.5f)
+      .setLoopPingPong();
+  }
+  public void Play()
+  {
+    Get
   }
 
 }
