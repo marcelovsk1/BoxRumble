@@ -18,4 +18,9 @@ public class MainMenu : MonoBehaviour
       .setOncComplete(OnComplete);
   }
 
+  private void OnComplete()
+  {
+    gameManager.Enable();
+    Destroy(gameObject);
+  }
 }
